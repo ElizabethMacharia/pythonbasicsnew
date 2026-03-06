@@ -27,3 +27,17 @@ print(balls)
 print(balls.keys())
 #identify all the values in the dictionary
 print(balls.value())
+#sets
+#sets dont have duplicates
+nums = {1, 9, 8, 3, 6, 9}
+print(nums)
+#add an item to the set
+nums.add(7)
+print(nums)
+#remove an item in the set
+nums.remove(7)
+print(nums)
+set_A = {1, 3, 5, 7}
+set_B = {2, 3, 4, 7}
+#determine the union of sets. duplicates are only considered once
+print(set_A.union(set_B))
