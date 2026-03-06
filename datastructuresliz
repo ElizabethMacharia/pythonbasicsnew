@@ -16,3 +16,14 @@ nums.reverse()
 print(nums)
 nums.sort()
 print(nums)
+#dictionaries
+balls = {"red":1,"blue":6, "Yellow":5, "black":3}
+#using keys 
+print(balls["black"])
+#adding key and value to the dictionary
+balls["green"]=5
+print(balls)
+#identify all the keys in the dictionary
+print(balls.keys())
+#identify all the values in the dictionary
+print(balls.value())
