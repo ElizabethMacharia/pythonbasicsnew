@@ -1,0 +1,18 @@
+nums = [2,4,4,6,8,9,4]
+#determine the length of the list
+print(len(nums))
+#append function
+nums.append(99)
+#count function
+print(nums)
+print(nums.count(4))
+#insert 7 at the first position
+nums.insert(1,7)
+print(nums)
+nums.reverse()
+print(nums)
+nums = [2,4,4,6,8,9,4]
+nums.reverse()
+print(nums)
+nums.sort()
+print(nums)
