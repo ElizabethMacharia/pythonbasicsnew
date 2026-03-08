@@ -41,3 +41,10 @@ set_A = {1, 3, 5, 7}
 set_B = {2, 3, 4, 7}
 #determine the union of sets. duplicates are only considered once
 print(set_A.union(set_B))
+#intersection of sets . only common items are considered
+print(set_A.intersection(set_B))
+#diffrence in sets
+print(set_A.difference(set_B))
+#revisting strings
+msg = "hello world"
+print(msg[0])
